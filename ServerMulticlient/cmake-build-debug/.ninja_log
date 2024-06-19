@@ -1,0 +1,13 @@
+# ninja log v6
+39	355	1718778043585544830	CMakeFiles/ServerMulticlient.dir/main.cpp.o	7378d49d26074130
+355	430	1718778043897555922	ServerMulticlient	b85905b69d2ef3
+2	67	1718790768419286687	CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o	cd419867253eabdc
+3	523	1718790891181097482	CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o	cd419867253eabdc
+3	572	1718790891181097482	CMakeFiles/ServerMulticlient.dir/Server.cpp.o	77f02525f600e40f
+572	741	1718790891749125343	ServerMulticlient	4bd5ee5d39ef427e
+7	406	1718790995822342875	CMakeFiles/ServerMulticlient.dir/main.cpp.o	7378d49d26074130
+406	515	1718790996222363305	ServerMulticlient	4bd5ee5d39ef427e
+12	1084	1718793409374237266	CMakeFiles/ServerMulticlient.dir/main.cpp.o	7378d49d26074130
+13	1095	1718793409374237266	CMakeFiles/ServerMulticlient.dir/Server.cpp.o	77f02525f600e40f
+16	1485	1718793409382237614	CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o	cd419867253eabdc
+1485	1740	1718793410850301570	ServerMulticlient	4bd5ee5d39ef427e

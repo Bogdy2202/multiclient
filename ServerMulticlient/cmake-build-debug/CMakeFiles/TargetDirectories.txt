@@ -1,0 +1,3 @@
+/home/student/Desktop/git/multiclient/ServerMulticlient/cmake-build-debug/CMakeFiles/ServerMulticlient.dir
+/home/student/Desktop/git/multiclient/ServerMulticlient/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/student/Desktop/git/multiclient/ServerMulticlient/cmake-build-debug/CMakeFiles/rebuild_cache.dir
