@@ -17,14 +17,16 @@ public:
     void stop();
     void sendMessage(const std::string& message);
     bool isRunning() const { return running; }
+    void setUsername(const std::string& username);
 
 private:
     void receiveMessages();
 
     int client_sock;
-    sockaddr_in server_addr;
-    std::atomic<bool> running;
+    struct sockaddr_in server_addr;
     std::thread receive_thread;
+    std::atomic<bool> running;
+    std::string username;
 };
 
 #endif // CLIENT_H

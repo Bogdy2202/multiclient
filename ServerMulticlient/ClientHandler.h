@@ -1,13 +1,11 @@
-#ifndef CLIENT_HANDLER_H
-#define CLIENT_HANDLER_H
+#ifndef CLIENTHANDLER_H
+#define CLIENTHANDLER_H
 
 #include <thread>
 #include <atomic>
-#include <netinet/in.h> // pentru struct sockaddr_in
-#include <unistd.h>     // pentru close
-#include <mutex>
+#include <string>
 
-class Server;
+class Server;  // Forward declaration
 
 class ClientHandler {
 public:
@@ -17,16 +15,14 @@ public:
     void start();
     void stop();
     void sendMessage(const std::string& message);
-    int getClientSock() const { return client_sock; }
 
 private:
     void handleClient();
 
     int client_sock;
-    Server* server;
-    std::atomic<bool> running;
     std::thread client_thread;
-    std::mutex send_mutex;
+    std::atomic<bool> running;
+    Server* server;  // Pointer to server
 };
 
-#endif // CLIENT_HANDLER_H
+#endif // CLIENTHANDLER_H

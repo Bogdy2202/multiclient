@@ -1,9 +1,10 @@
 #include "ClientHandler.h"
 #include "Server.h"
 #include <iostream>
-#include <cstring> // pentru memset
+#include <unistd.h>
+#include <cstring>
 
-ClientHandler::ClientHandler(int client_sock, Server* server) : client_sock(client_sock), server(server), running(true) {
+ClientHandler::ClientHandler(int client_sock, Server* server) : client_sock(client_sock), running(true), server(server) {
     client_thread = std::thread(&ClientHandler::handleClient, this);
 }
 
@@ -22,14 +23,6 @@ void ClientHandler::stop() {
     running = false;
     if (client_sock != -1) {
         close(client_sock);
-        client_sock = -1;
-    }
-}
-
-void ClientHandler::sendMessage(const std::string& message) {
-    std::lock_guard<std::mutex> lock(send_mutex);
-    if (client_sock != -1) {
-        send(client_sock, message.c_str(), message.size(), 0);
     }
 }
 
@@ -41,18 +34,27 @@ void ClientHandler::handleClient() {
         iResult = recv(client_sock, buffer, sizeof(buffer), 0);
         if (iResult > 0) {
             buffer[iResult] = '\0';
-            std::cout << "Received from client: " << buffer << std::endl;
-            server->broadcastMessage(buffer, client_sock);
-        } else if (iResult == 0) {
-            std::cout << "Connection closed by client\n";
-            stop();
+            std::string message(buffer);
+            std::cout << "Received: " << message << std::endl;
+
+            // Forward message to all clients
+            server->broadcastMessage(message);
+        }
+        else if (iResult == 0) {
+            std::cout << "Connection closed\n";
             break;
-        } else {
+        }
+        else {
             std::cerr << "recv failed: " << strerror(errno) << std::endl;
-            stop();
             break;
         }
     }
 
     close(client_sock);
+}
+
+void ClientHandler::sendMessage(const std::string& message) {
+    if (client_sock != -1) {
+        send(client_sock, message.c_str(), message.size(), 0);
+    }
 }

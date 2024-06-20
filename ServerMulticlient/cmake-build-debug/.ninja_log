@@ -11,3 +11,7 @@
 13	1095	1718793409374237266	CMakeFiles/ServerMulticlient.dir/Server.cpp.o	77f02525f600e40f
 16	1485	1718793409382237614	CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o	cd419867253eabdc
 1485	1740	1718793410850301570	ServerMulticlient	4bd5ee5d39ef427e
+16	612	1718861739575260077	CMakeFiles/ServerMulticlient.dir/main.cpp.o	7378d49d26074130
+17	668	1718861739575260077	CMakeFiles/ServerMulticlient.dir/Server.cpp.o	77f02525f600e40f
+17	681	1718861739575260077	CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o	cd419867253eabdc
+682	763	1718861740239240146	ServerMulticlient	4bd5ee5d39ef427e

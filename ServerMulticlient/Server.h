@@ -3,10 +3,8 @@
 
 #include <vector>
 #include <memory>
-#include <thread>
+#include <netinet/in.h>
 #include <atomic>
-#include <netinet/in.h> // pentru struct sockaddr_in
-#include <mutex>
 #include "ClientHandler.h"
 
 class Server {
@@ -16,16 +14,15 @@ public:
 
     void start();
     void stop();
-    void broadcastMessage(const std::string& message, int sender_sock);
+    void broadcastMessage(const std::string& message);
 
 private:
     void acceptClients();
 
     int listen_sock;
-    sockaddr_in saServer;
-    std::atomic<bool> running;
+    struct sockaddr_in saServer;
     std::vector<std::unique_ptr<ClientHandler>> clientHandlers;
-    std::mutex clients_mutex;
+    std::atomic<bool> running;
 };
 
 #endif // SERVER_H

@@ -1,8 +1,8 @@
 #include "Server.h"
-#include "ClientHandler.h"
 #include <iostream>
-#include <cstring> // pentru memset
+#include <unistd.h>
 #include <arpa/inet.h>
+#include <cstring>
 
 Server::Server(int port) : listen_sock(-1), running(false) {
     listen_sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -11,12 +11,11 @@ Server::Server(int port) : listen_sock(-1), running(false) {
         exit(EXIT_FAILURE);
     }
 
-    memset(&saServer, 0, sizeof(saServer));
     saServer.sin_family = AF_INET;
     saServer.sin_addr.s_addr = INADDR_ANY;
     saServer.sin_port = htons(port);
 
-    if (bind(listen_sock, (sockaddr*)&saServer, sizeof(saServer)) == -1) {
+    if (bind(listen_sock, (struct sockaddr*)&saServer, sizeof(saServer)) == -1) {
         std::cerr << "Bind failed: " << strerror(errno) << std::endl;
         close(listen_sock);
         exit(EXIT_FAILURE);
@@ -50,28 +49,29 @@ void Server::stop() {
 
 void Server::acceptClients() {
     while (running) {
-        sockaddr_in coming_addr;
+        struct sockaddr_in coming_addr;
         socklen_t size = sizeof(coming_addr);
-        int client_sock = accept(listen_sock, (sockaddr*)&coming_addr, &size);
+        int client_sock = accept(listen_sock, (struct sockaddr*)&coming_addr, &size);
         if (client_sock == -1) {
             std::cerr << "Accept failed: " << strerror(errno) << std::endl;
             continue;
         }
+        else {
+            char buffer[INET_ADDRSTRLEN];
+            inet_ntop(AF_INET, &coming_addr.sin_addr, buffer, sizeof(buffer));
+            std::cout << buffer << " connected!\n";
 
-        char buffer[36];
-        inet_ntop(AF_INET, &coming_addr.sin_addr, buffer, sizeof(buffer));
-        std::cout << buffer << " connected!\n";
+            auto handler = std::make_unique<ClientHandler>(client_sock, this);
+            clientHandlers.push_back(std::move(handler));
 
-        auto handler = std::make_unique<ClientHandler>(client_sock, this);
-        clientHandlers.push_back(std::move(handler));
+            // Start handling the client in a new thread
+            clientHandlers.back()->start();
+        }
     }
 }
 
-void Server::broadcastMessage(const std::string& message, int sender_sock) {
-    std::lock_guard<std::mutex> lock(clients_mutex);
+void Server::broadcastMessage(const std::string& message) {
     for (auto& handler : clientHandlers) {
-        if (handler->getClientSock() != sender_sock) {
-            handler->sendMessage(message);
-        }
+        handler->sendMessage(message);
     }
 }
