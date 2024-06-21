@@ -1,0 +1,30 @@
+[2024-06-21 11:58:19] Server starting...
+[2024-06-21 11:58:19] Server listening on port 54000
+[2024-06-21 11:58:24] Server starting...
+[2024-06-21 11:58:24] Server listening on port 54000
+[2024-06-21 12:14:56] Server starting...
+[2024-06-21 12:14:56] Server listening on port 54000
+[2024-06-21 12:22:41] Server starting...
+[2024-06-21 12:22:41] Server listening on port 54000
+[2024-06-21 12:29:24] 127.0.0.1 connected!
+[2024-06-21 12:29:41] 127.0.0.1 connected!
+[2024-06-21 12:30:01] Received from client 6: Dary: buna bogdan
+[2024-06-21 12:30:01] Sent to client 5: Dary: buna bogdan
+[2024-06-21 12:30:01] Sent to client 6: Dary: buna bogdan
+[2024-06-21 12:30:06] Received from client 5: Bogdy: asa
+[2024-06-21 12:30:06] Sent to client 5: Bogdy: asa
+[2024-06-21 12:30:06] Sent to client 6: Bogdy: asa
+[2024-06-21 12:30:10] Received from client 5: Bogdy: aha
+[2024-06-21 12:30:10] Sent to client 5: Bogdy: aha
+[2024-06-21 12:30:10] Sent to client 6: Bogdy: aha
+[2024-06-21 12:30:23] Received from client 6: Dary: da
+[2024-06-21 12:30:23] Sent to client 5: Dary: da
+[2024-06-21 12:30:23] Sent to client 6: Dary: da
+[2024-06-21 12:30:25] Received from client 6: Dary: venim'
+[2024-06-21 12:30:25] Sent to client 5: Dary: venim'
+[2024-06-21 12:30:25] Sent to client 6: Dary: venim'
+[2024-06-21 12:30:51] Received from client 5: Bogdy: 
+[2024-06-21 12:30:51] Sent to client 5: Bogdy: 
+[2024-06-21 12:30:51] Sent to client 6: Bogdy: 
+[2024-06-21 12:31:47] Client 6 disconnected.
+[2024-06-21 12:31:51] Client 5 disconnected.

@@ -7,4 +7,8 @@ add_executable(ServerMulticlient main.cpp
         Server.cpp
         Server.h
         ClientHandler.cpp
-        ClientHandler.h)
+        ClientHandler.h
+        Logger.cpp
+        Logger.h
+        ErrorHandler.cpp
+        ErrorHandler.h)

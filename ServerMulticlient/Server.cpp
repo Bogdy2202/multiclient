@@ -3,8 +3,12 @@
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <cstring>
+#include "Logger.h"
 
 Server::Server(int port) : listen_sock(-1), running(false) {
+
+    Logger::getInstance().log("Server starting...");
+
     listen_sock = socket(AF_INET, SOCK_STREAM, 0);
     if (listen_sock == -1) {
         std::cerr << "Socket creation failed: " << strerror(errno) << std::endl;
@@ -28,6 +32,7 @@ Server::Server(int port) : listen_sock(-1), running(false) {
     }
 
     std::cout << "Server listening on port " << port << "...\n";
+    Logger::getInstance().log("Server listening on port " + std::to_string(port));
 }
 
 Server::~Server() {
@@ -45,6 +50,7 @@ void Server::stop() {
     for (auto& handler : clientHandlers) {
         handler->stop();
     }
+    Logger::getInstance().log("Server stopped.");
 }
 
 void Server::acceptClients() {
@@ -54,11 +60,13 @@ void Server::acceptClients() {
         int client_sock = accept(listen_sock, (struct sockaddr*)&coming_addr, &size);
         if (client_sock == -1) {
             std::cerr << "Accept failed: " << strerror(errno) << std::endl;
+            Logger::getInstance().log("Accept failed: " + std::string(strerror(errno)));
             continue;
         }
         else {
             char buffer[INET_ADDRSTRLEN];
             inet_ntop(AF_INET, &coming_addr.sin_addr, buffer, sizeof(buffer));
+            Logger::getInstance().log(std::string(buffer) + " connected!");
             std::cout << buffer << " connected!\n";
 
             auto handler = std::make_unique<ClientHandler>(client_sock, this);
