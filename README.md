@@ -14,5 +14,4 @@ Ziua 3:
 M-am mutat pe linux si am lucrat in clion
 Am reusit sa implementez mesaje dintre mai multi clienti , toti conectati 
 
-Ziua 4:
-Am adaugat optiunea de username si cand trimit mesaje apare usernameul celui ce trimite mesaje.
+
