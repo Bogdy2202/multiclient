@@ -23,10 +23,16 @@ Client::Client(const std::string& server_address, int port) : client_sock(-1), r
 
     std::cout << "Enter your username: ";
     std::getline(std::cin, username);
+
+    // Trimite username-ul la server imediat după conectare
+    send(client_sock, username.c_str(), username.size(), 0);
 }
 
 Client::~Client() {
     stop();
+    if (client_sock != -1) {
+        close(client_sock);
+    }
 }
 
 void Client::start() {
@@ -47,8 +53,7 @@ void Client::stop() {
 
 void Client::sendMessage(const std::string& message) {
     if (client_sock != -1) {
-        std::string full_message = username + ": " + message;
-        send(client_sock, full_message.c_str(), full_message.size(), 0);
+        send(client_sock, message.c_str(), message.size(), 0);
     }
 }
 

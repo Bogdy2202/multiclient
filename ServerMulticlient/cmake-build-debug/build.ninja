@@ -73,12 +73,6 @@ build CMakeFiles/ServerMulticlient.dir/Logger.cpp.o: CXX_COMPILER__ServerMulticl
   OBJECT_DIR = CMakeFiles/ServerMulticlient.dir
   OBJECT_FILE_DIR = CMakeFiles/ServerMulticlient.dir
 
-build CMakeFiles/ServerMulticlient.dir/ErrorHandler.cpp.o: CXX_COMPILER__ServerMulticlient_unscanned_Debug /home/student/Desktop/git/multiclient/ServerMulticlient/ErrorHandler.cpp || cmake_object_order_depends_target_ServerMulticlient
-  DEP_FILE = CMakeFiles/ServerMulticlient.dir/ErrorHandler.cpp.o.d
-  FLAGS = -g -fdiagnostics-color=always
-  OBJECT_DIR = CMakeFiles/ServerMulticlient.dir
-  OBJECT_FILE_DIR = CMakeFiles/ServerMulticlient.dir
-
 
 # =============================================================================
 # Link build statements for EXECUTABLE target ServerMulticlient
@@ -87,7 +81,7 @@ build CMakeFiles/ServerMulticlient.dir/ErrorHandler.cpp.o: CXX_COMPILER__ServerM
 #############################################
 # Link the executable ServerMulticlient
 
-build ServerMulticlient: CXX_EXECUTABLE_LINKER__ServerMulticlient_Debug CMakeFiles/ServerMulticlient.dir/main.cpp.o CMakeFiles/ServerMulticlient.dir/Server.cpp.o CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o CMakeFiles/ServerMulticlient.dir/Logger.cpp.o CMakeFiles/ServerMulticlient.dir/ErrorHandler.cpp.o
+build ServerMulticlient: CXX_EXECUTABLE_LINKER__ServerMulticlient_Debug CMakeFiles/ServerMulticlient.dir/main.cpp.o CMakeFiles/ServerMulticlient.dir/Server.cpp.o CMakeFiles/ServerMulticlient.dir/ClientHandler.cpp.o CMakeFiles/ServerMulticlient.dir/Logger.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/ServerMulticlient.dir
   POST_BUILD = :

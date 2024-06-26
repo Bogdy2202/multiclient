@@ -12,10 +12,6 @@ Am facut clasele pentru server si receive handler in proiectul server.
 
 Ziua 3:
 M-am mutat pe linux si am lucrat in clion
-<<<<<<< HEAD
-Am reusit sa implementez mesaje dintre mai multi clienti , toti conectati 
-
-=======
 Am reusit sa implementez mesaje dintre mai multi clienti , toti conectati .
 
 Ziua 4: 
@@ -23,5 +19,10 @@ Am adaugat optiunea de username si cand trimit mesaje apare usernameul celui ce 
 
 Ziua 5:
 Am facut un logger care inregistreaza mesajele si ora la care au fost trimise + ora de pornire a serverului.
->>>>>>> 3c0c928 (Logger adaugat)
+
+Ziua 6:
+Am cautat mai multe defecte si le am remediat si m am gandit la ce mai pot adauga.
+
+Ziua 7:
+Am adaugat posibilitatea de a da comenzi.
 

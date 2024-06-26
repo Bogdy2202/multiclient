@@ -3,8 +3,7 @@
 
 #include <vector>
 #include <memory>
-#include <netinet/in.h>
-#include <atomic>
+#include <netinet/in.h> // pentru struct sockaddr_in
 #include "ClientHandler.h"
 
 class Server {
@@ -15,6 +14,7 @@ public:
     void start();
     void stop();
     void broadcastMessage(const std::string& message);
+    void removeClientHandler(ClientHandler* handler);
 
 private:
     void acceptClients();

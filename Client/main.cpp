@@ -10,8 +10,17 @@ int main() {
     client.start();
 
     std::string message;
-    while (client.isRunning()) {
+    std::cin.ignore();  // Ignore newline left in the buffer
+
+    std::cout << "You can start typing messages. Type 'exit' to quit." << std::endl;
+
+    while (true) {
         std::getline(std::cin, message);
+
+        if (message == "exit") {
+            break;
+        }
+
         client.sendMessage(message);
     }
 

@@ -16,7 +16,6 @@ public:
     void start();
     void stop();
     void sendMessage(const std::string& message);
-    bool isRunning() const { return running; }
     void setUsername(const std::string& username);
 
 private:

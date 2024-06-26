@@ -4,9 +4,9 @@
 #include <arpa/inet.h>
 #include <cstring>
 #include "Logger.h"
+#include<algorithm>
 
 Server::Server(int port) : listen_sock(-1), running(false) {
-
     Logger::getInstance().log("Server starting...");
 
     listen_sock = socket(AF_INET, SOCK_STREAM, 0);
@@ -62,8 +62,7 @@ void Server::acceptClients() {
             std::cerr << "Accept failed: " << strerror(errno) << std::endl;
             Logger::getInstance().log("Accept failed: " + std::string(strerror(errno)));
             continue;
-        }
-        else {
+        } else {
             char buffer[INET_ADDRSTRLEN];
             inet_ntop(AF_INET, &coming_addr.sin_addr, buffer, sizeof(buffer));
             Logger::getInstance().log(std::string(buffer) + " connected!");
@@ -82,4 +81,11 @@ void Server::broadcastMessage(const std::string& message) {
     for (auto& handler : clientHandlers) {
         handler->sendMessage(message);
     }
+}
+
+void Server::removeClientHandler(ClientHandler* handler) {
+    clientHandlers.erase(
+        std::remove_if(clientHandlers.begin(), clientHandlers.end(),
+                       [handler](const std::unique_ptr<ClientHandler>& ptr) { return ptr.get() == handler; }),
+        clientHandlers.end());
 }
