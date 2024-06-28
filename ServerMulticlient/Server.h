@@ -15,6 +15,8 @@ public:
     void stop();
     void broadcastMessage(const std::string& message);
     void removeClientHandler(ClientHandler* handler);
+    void sendPrivateMessage(const std::string& username, const std::string& message);
+    std::vector<std::string> getUsernames() const;
 
 private:
     void acceptClients();

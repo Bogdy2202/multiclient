@@ -16,7 +16,9 @@ public:
     void start();
     void stop();
     void sendMessage(const std::string& message);
+    void sendMessages();
     void setUsername(const std::string& username);
+    bool GetRunning();
 
 private:
     void receiveMessages();

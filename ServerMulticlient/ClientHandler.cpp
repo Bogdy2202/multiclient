@@ -13,9 +13,7 @@ ClientHandler::ClientHandler(int client_sock, Server* server)
 
 ClientHandler::~ClientHandler() {
     stop();
-    if (client_thread.joinable()) {
-        client_thread.join();
-    }
+
 }
 
 void ClientHandler::start() {
@@ -26,7 +24,9 @@ void ClientHandler::stop() {
     running = false;
     if (client_sock != -1) {
         close(client_sock);
+        client_sock = -1;
     }
+
 }
 
 void ClientHandler::handleClient() {
@@ -51,10 +51,13 @@ void ClientHandler::handleClient() {
             std::string message(buffer);
             Logger::getInstance().log("Received from client " + username + ": " + message);
 
+
             if (message[0] == '/') {
+                Logger::getInstance().log("Client " + username + " requested command.");
                 processCommand(message);
-            } else {
-                // Forward message to all clients
+            }
+            else {
+                Logger::getInstance().log("Received from client " + username + ": " + message);
                 server->broadcastMessage(username + ": " + message);
             }
         } else if (iResult == 0) {
@@ -72,11 +75,32 @@ void ClientHandler::handleClient() {
 
 void ClientHandler::processCommand(const std::string& command) {
     // Exemplu de procesare a comenzilor
-    if (command == "/exit") {
+    if (command == "/exit")
+    {
         Logger::getInstance().log("Client " + username + " requested to exit.");
+        this->sendMessage("EXIT");
         stop();
-        close(client_sock);
-    } else {
+        //server->removeClientHandler(this);
+    }
+    else if (command.substr(0, 9) == "/message_") {
+        size_t space_pos = command.find(' ', 9);
+        if (space_pos != std::string::npos)
+        {
+            std::string target_username = command.substr(9, space_pos - 9);
+            std::string private_message = command.substr(space_pos + 1);
+            Logger::getInstance().log("Private message from " + username + " to " + target_username + ": " + private_message);
+            server->sendPrivateMessage(target_username, "Private message from " + username + ": " + private_message);
+        }
+    }
+        else if (command == "/show_users") {
+            std::vector<std::string> users = server->getUsernames();
+            std::string user_list = "Connected users:\n";
+            for (const auto& user : users) {
+                user_list += user + "\n";
+            }
+            sendMessage(user_list);
+        }
+     else {
         Logger::getInstance().log("Unknown command from client " + username + ": " + command);
     }
 }

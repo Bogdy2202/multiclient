@@ -46,25 +46,43 @@ void Client::stop() {
         close(client_sock);
         client_sock = -1;
     }
-    if (receive_thread.joinable()) {
+    if(receive_thread.joinable())
         receive_thread.join();
-    }
 }
 
 void Client::sendMessage(const std::string& message) {
     if (client_sock != -1) {
         send(client_sock, message.c_str(), message.size(), 0);
+        if (message == "/exit") {
+            stop();
+        }
+    }
+}
+
+void Client::sendMessages() {
+    std::string message;
+    while (running) {
+        //std::cout << "\n Introduce mesaj: ";
+        std::getline(std::cin, message);
+        sendMessage(message);
+        if (message == "/exit") {
+            break;
+        }
     }
 }
 
 void Client::receiveMessages() {
     char buffer[1024];
-    int iResult;
+    long iResult;
 
     while (running) {
         iResult = recv(client_sock, buffer, sizeof(buffer), 0);
         if (iResult > 0) {
             buffer[iResult] = '\0';
+            if(strcmp(buffer, "EXIT") == 0) {
+                running = false;
+                continue;
+            }
             std::cout << buffer << std::endl;
         }
         else if (iResult == 0) {
@@ -82,4 +100,8 @@ void Client::receiveMessages() {
 
 void Client::setUsername(const std::string& username) {
     this->username = username;
+}
+
+bool Client::GetRunning() {
+    return running;
 }

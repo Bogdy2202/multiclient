@@ -50,6 +50,7 @@ void Server::stop() {
     for (auto& handler : clientHandlers) {
         handler->stop();
     }
+    clientHandlers.clear();
     Logger::getInstance().log("Server stopped.");
 }
 
@@ -62,7 +63,8 @@ void Server::acceptClients() {
             std::cerr << "Accept failed: " << strerror(errno) << std::endl;
             Logger::getInstance().log("Accept failed: " + std::string(strerror(errno)));
             continue;
-        } else {
+        }
+        else{
             char buffer[INET_ADDRSTRLEN];
             inet_ntop(AF_INET, &coming_addr.sin_addr, buffer, sizeof(buffer));
             Logger::getInstance().log(std::string(buffer) + " connected!");
@@ -83,9 +85,41 @@ void Server::broadcastMessage(const std::string& message) {
     }
 }
 
-void Server::removeClientHandler(ClientHandler* handler) {
-    clientHandlers.erase(
-        std::remove_if(clientHandlers.begin(), clientHandlers.end(),
-                       [handler](const std::unique_ptr<ClientHandler>& ptr) { return ptr.get() == handler; }),
-        clientHandlers.end());
+void Server::sendPrivateMessage(const std::string& username, const std::string& message) {
+    for (auto& handler : clientHandlers) {
+        if (handler->getUsername() == username) {
+            handler->sendMessage(message);
+            break;
+        }
+    }
 }
+
+void Server::removeClientHandler(ClientHandler* handler) {
+    auto it = std::remove_if(clientHandlers.begin(), clientHandlers.end(),
+                             [handler](const std::unique_ptr<ClientHandler>& ptr) { return ptr.get() == handler; });
+
+    if (it != clientHandlers.end()) {
+        // Release the unique_ptr ownership without deleting the object
+        handler = it->release();
+        // Remove the now-nullptr from the vector
+        clientHandlers.erase(it);
+    }
+}
+
+std::vector<std::string> Server::getUsernames() const {
+    std::vector<std::string> usernames;
+    for (const auto& handler : clientHandlers) {
+        usernames.push_back(handler->getUsername());
+    }
+    return usernames;
+}
+
+// void Server::removeClientHandler(ClientHandler* handler) {
+//     auto it = std::remove_if(clientHandlers.begin(), clientHandlers.end(),
+//                              [handler](const std::unique_ptr<ClientHandler>& ptr) { return ptr.get() == handler; });
+//
+//     if (it != clientHandlers.end()) {
+//         clientHandlers.erase(it, clientHandlers.end());
+//     }
+// }
+

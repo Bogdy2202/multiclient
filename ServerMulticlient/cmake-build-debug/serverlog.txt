@@ -309,3 +309,811 @@
 [2024-06-26 12:09:43] Sent to client Bogdy: Bogdy: salut
 [2024-06-26 12:09:46] Received from client Bogdy: /exit
 [2024-06-26 12:09:46] Client Bogdy requested to exit.
+[2024-06-26 12:42:15] Server starting...
+[2024-06-26 12:42:15] Server listening on port 54000
+[2024-06-26 12:42:26] 127.0.0.1 connected!
+[2024-06-26 12:42:29] Client connected with username: BOgdy
+[2024-06-26 12:42:33] Received from client BOgdy: da mda 
+[2024-06-26 12:42:33] Received from client BOgdy: da mda 
+[2024-06-26 12:42:33] Sent to client BOgdy: BOgdy: da mda 
+[2024-06-26 12:42:38] Received from client BOgdy: ,erge
+[2024-06-26 12:42:38] Received from client BOgdy: ,erge
+[2024-06-26 12:42:38] Sent to client BOgdy: BOgdy: ,erge
+[2024-06-26 12:42:42] Received from client BOgdy: f bine
+[2024-06-26 12:42:42] Received from client BOgdy: f bine
+[2024-06-26 12:42:42] Sent to client BOgdy: BOgdy: f bine
+[2024-06-26 12:42:47] Received from client BOgdy: /exit
+[2024-06-26 12:42:47] Client BOgdy requested to exit.
+[2024-06-27 09:23:16] Server starting...
+[2024-06-27 09:23:16] Server listening on port 54000
+[2024-06-27 09:23:21] 127.0.0.1 connected!
+[2024-06-27 09:23:49] 127.0.0.1 connected!
+[2024-06-27 09:23:55] Client connected with username: Bogdan
+[2024-06-27 09:24:01] Client connected with username: DOru
+[2024-06-27 09:24:14] Received from client Bogdan: Salut
+[2024-06-27 09:24:14] Received from client Bogdan: Salut
+[2024-06-27 09:24:14] Sent to client DOru: Bogdan: Salut
+[2024-06-27 09:24:14] Sent to client Bogdan: Bogdan: Salut
+[2024-06-27 09:24:24] Received from client DOru: Salut bogdane
+[2024-06-27 09:24:24] Received from client DOru: Salut bogdane
+[2024-06-27 09:24:24] Sent to client DOru: DOru: Salut bogdane
+[2024-06-27 09:24:24] Sent to client Bogdan: DOru: Salut bogdane
+[2024-06-27 09:24:33] Client DOru disconnected.
+[2024-06-27 09:34:47] Server starting...
+[2024-06-27 09:34:47] Server listening on port 54000
+[2024-06-27 09:34:58] 127.0.0.1 connected!
+[2024-06-27 09:35:02] Client connected with username: Bogan
+[2024-06-27 09:35:06] Received from client Bogan: /exit
+[2024-06-27 09:35:06] Client Bogan requested to exit.
+[2024-06-27 09:37:12] Server starting...
+[2024-06-27 09:37:12] Server listening on port 54000
+[2024-06-27 09:37:14] 127.0.0.1 connected!
+[2024-06-27 09:37:16] Client connected with username: bbyh
+[2024-06-27 09:37:18] Received from client bbyh: sll
+[2024-06-27 09:37:18] Received from client bbyh: sll
+[2024-06-27 09:37:18] Sent to client bbyh: bbyh: sll
+[2024-06-27 09:37:19] Received from client bbyh: sals
+[2024-06-27 09:37:19] Received from client bbyh: sals
+[2024-06-27 09:37:19] Sent to client bbyh: bbyh: sals
+[2024-06-27 09:37:19] Received from client bbyh: dsafa
+[2024-06-27 09:37:19] Received from client bbyh: dsafa
+[2024-06-27 09:37:19] Sent to client bbyh: bbyh: dsafa
+[2024-06-27 09:37:21] Received from client bbyh: gasa
+[2024-06-27 09:37:21] Received from client bbyh: gasa
+[2024-06-27 09:37:21] Sent to client bbyh: bbyh: gasa
+[2024-06-27 09:37:56] Client bbyh disconnected.
+[2024-06-27 09:38:24] Server starting...
+[2024-06-27 09:38:24] Server listening on port 54000
+[2024-06-27 09:38:33] 127.0.0.1 connected!
+[2024-06-27 09:38:37] Client connected with username: lala
+[2024-06-27 09:39:36] Received from client lala: /exit
+[2024-06-27 09:39:48] Client lala requested to exit.
+[2024-06-27 09:42:16] Server starting...
+[2024-06-27 09:42:16] Server listening on port 54000
+[2024-06-27 09:42:18] 127.0.0.1 connected!
+[2024-06-27 09:42:21] Client connected with username: matei
+[2024-06-27 09:42:39] Received from client matei: /exit
+[2024-06-27 09:42:44] Client matei requested to exit.
+[2024-06-27 09:43:11] Server starting...
+[2024-06-27 09:43:22] Server starting...
+[2024-06-27 09:44:36] Server starting...
+[2024-06-27 09:44:36] Server listening on port 54000
+[2024-06-27 09:44:47] 127.0.0.1 connected!
+[2024-06-27 09:44:48] Client connected with username: asd
+[2024-06-27 09:45:03] Received from client asd: /exit
+[2024-06-27 09:45:09] Client asd requested to exit.
+[2024-06-27 09:49:39] Server starting...
+[2024-06-27 09:49:39] Server listening on port 54000
+[2024-06-27 09:49:46] 127.0.0.1 connected!
+[2024-06-27 09:49:47] Client connected with username: asd
+[2024-06-27 09:49:49] Received from client asd: /exit
+[2024-06-27 09:49:49] Client asd requested to exit.
+[2024-06-27 09:50:52] 127.0.0.1 connected!
+[2024-06-27 09:50:54] Client connected with username: Matei
+[2024-06-27 09:51:00] 127.0.0.1 connected!
+[2024-06-27 09:51:02] Client connected with username: Ion
+[2024-06-27 09:51:22] Client Ion disconnected.
+[2024-06-27 09:51:25] 127.0.0.1 connected!
+[2024-06-27 09:51:28] Client connected with username: Ion
+[2024-06-27 09:51:41] Client Matei disconnected.
+[2024-06-27 09:56:43] Server starting...
+[2024-06-27 09:56:43] Server listening on port 54000
+[2024-06-27 09:56:47] 127.0.0.1 connected!
+[2024-06-27 09:56:50] Client connected with username: lala
+[2024-06-27 09:56:53] Received from client lala: /exit
+[2024-06-27 09:56:53] Client lala requested to exit.
+[2024-06-27 09:56:53] Sent to client lala: EXIT
+[2024-06-27 09:58:59] 127.0.0.1 connected!
+[2024-06-27 09:59:03] Client connected with username: lal
+[2024-06-27 09:59:05] Received from client lal: /exit
+[2024-06-27 09:59:05] Client lal requested to exit.
+[2024-06-27 09:59:05] Sent to client lal: EXIT
+[2024-06-27 09:59:14] 127.0.0.1 connected!
+[2024-06-27 09:59:16] Client connected with username: lala
+[2024-06-27 10:00:12] Received from client lala: /exit
+[2024-06-27 10:00:12] Client lala requested to exit.
+[2024-06-27 10:00:12] Sent to client lala: EXIT
+[2024-06-27 10:01:04] 127.0.0.1 connected!
+[2024-06-27 10:01:06] Client connected with username: lala
+[2024-06-27 10:01:07] Received from client lala: /exit
+[2024-06-27 10:01:07] Client lala requested to exit.
+[2024-06-27 10:01:07] Sent to client lala: EXIT
+[2024-06-27 10:01:15] 127.0.0.1 connected!
+[2024-06-27 10:01:17] Client connected with username: lala
+[2024-06-27 10:01:25] Received from client lala: /exit
+[2024-06-27 10:01:25] Client lala requested to exit.
+[2024-06-27 10:01:25] Sent to client lala: EXIT
+[2024-06-27 10:02:06] 127.0.0.1 connected!
+[2024-06-27 10:02:10] Client connected with username: laa
+[2024-06-27 10:02:17] Received from client laa: /exit
+[2024-06-27 10:02:17] Client laa requested to exit.
+[2024-06-27 10:02:17] Sent to client laa: EXIT
+[2024-06-27 10:06:07] 127.0.0.1 connected!
+[2024-06-27 10:06:09] Client connected with username: bOG
+[2024-06-27 10:06:13] Received from client bOG: /exit
+[2024-06-27 10:06:13] Client bOG requested to exit.
+[2024-06-27 10:06:13] Sent to client bOG: EXIT
+[2024-06-27 10:10:31] 127.0.0.1 connected!
+[2024-06-27 10:10:36] Client connected with username: Bogdan
+[2024-06-27 10:10:39] Received from client Bogdan: /exit
+[2024-06-27 10:10:39] Client Bogdan requested to exit.
+[2024-06-27 10:10:39] Sent to client Bogdan: EXIT
+[2024-06-27 10:12:58] 127.0.0.1 connected!
+[2024-06-27 10:13:02] Client connected with username: Bog
+[2024-06-27 10:13:17] Received from client Bog: /exit
+[2024-06-27 10:13:17] Client Bog requested to exit.
+[2024-06-27 10:13:17] Sent to client Bog: EXIT
+[2024-06-27 10:17:03] 127.0.0.1 connected!
+[2024-06-27 10:17:06] Client connected with username: gf
+[2024-06-27 10:17:25] Client gf disconnected.
+[2024-06-27 10:17:46] 127.0.0.1 connected!
+[2024-06-27 10:17:48] Client connected with username: hhd
+[2024-06-27 10:17:49] Client hhd disconnected.
+[2024-06-27 10:18:01] 127.0.0.1 connected!
+[2024-06-27 10:18:07] Client connected with username: lld
+[2024-06-27 10:18:09] Client lld disconnected.
+[2024-06-27 10:18:13] 127.0.0.1 connected!
+[2024-06-27 10:18:18] Client connected with username: dsd
+[2024-06-27 10:18:37] Client dsd disconnected.
+[2024-06-27 10:19:48] 127.0.0.1 connected!
+[2024-06-27 10:19:50] Client connected with username: hg
+[2024-06-27 10:20:45] 127.0.0.1 connected!
+[2024-06-27 10:20:47] Client connected with username: bog
+[2024-06-27 10:20:49] Received from client bog: asa
+[2024-06-27 10:20:49] Received from client bog: asa
+[2024-06-27 10:20:49] Sent to client hg: bog: asa
+[2024-06-27 10:20:49] Sent to client bog: bog: asa
+[2024-06-27 10:20:49] Client hg disconnected.
+[2024-06-27 10:21:09] Server starting...
+[2024-06-27 10:21:14] Server starting...
+[2024-06-27 10:21:17] Server starting...
+[2024-06-27 10:21:50] Server starting...
+[2024-06-27 10:21:52] Server starting...
+[2024-06-27 10:21:52] Server listening on port 54000
+[2024-06-27 10:22:03] 127.0.0.1 connected!
+[2024-06-27 10:22:06] Client connected with username: Bogdan
+[2024-06-27 10:22:25] 127.0.0.1 connected!
+[2024-06-27 10:22:32] Client connected with username: Doir
+[2024-06-27 10:22:34] Received from client Doir: salut
+[2024-06-27 10:22:34] Received from client Doir: salut
+[2024-06-27 10:22:34] Sent to client Bogdan: Doir: salut
+[2024-06-27 10:22:34] Sent to client Doir: Doir: salut
+[2024-06-27 10:22:39] Received from client Bogdan: sall
+[2024-06-27 10:22:39] Received from client Bogdan: sall
+[2024-06-27 10:22:39] Sent to client Bogdan: Bogdan: sall
+[2024-06-27 10:22:39] Sent to client Doir: Bogdan: sall
+[2024-06-27 10:22:40] Received from client Bogdan: cmf
+[2024-06-27 10:22:40] Received from client Bogdan: cmf
+[2024-06-27 10:22:40] Sent to client Bogdan: Bogdan: cmf
+[2024-06-27 10:22:40] Sent to client Doir: Bogdan: cmf
+[2024-06-27 10:22:43] Received from client Doir: binee
+[2024-06-27 10:22:43] Received from client Doir: binee
+[2024-06-27 10:22:43] Sent to client Bogdan: Doir: binee
+[2024-06-27 10:22:43] Sent to client Doir: Doir: binee
+[2024-06-27 10:22:50] Received from client Bogdan: cf ?
+[2024-06-27 10:22:50] Received from client Bogdan: cf ?
+[2024-06-27 10:22:50] Sent to client Bogdan: Bogdan: cf ?
+[2024-06-27 10:22:50] Sent to client Doir: Bogdan: cf ?
+[2024-06-27 10:22:50] Client Doir disconnected.
+[2024-06-27 10:23:00] Received from client Bogdan: hai ca e bine
+[2024-06-27 10:23:00] Received from client Bogdan: hai ca e bine
+[2024-06-27 10:23:00] Sent to client Bogdan: Bogdan: hai ca e bine
+[2024-06-27 10:24:15] 127.0.0.1 connected!
+[2024-06-27 10:24:18] Client connected with username: mari
+[2024-06-27 10:24:19] Received from client mari: sa
+[2024-06-27 10:24:19] Received from client mari: sa
+[2024-06-27 10:24:19] Sent to client Bogdan: mari: sa
+[2024-06-27 10:24:19] Sent to client mari: mari: sa
+[2024-06-27 10:24:23] Received from client Bogdan: ba
+[2024-06-27 10:24:23] Received from client Bogdan: ba
+[2024-06-27 10:24:23] Sent to client Bogdan: Bogdan: ba
+[2024-06-27 10:24:23] Sent to client mari: Bogdan: ba
+[2024-06-27 10:24:37] Received from client mari: astepti mesaju de la mn sa te opresti
+[2024-06-27 10:24:37] Received from client mari: astepti mesaju de la mn sa te opresti
+[2024-06-27 10:24:37] Sent to client Bogdan: mari: astepti mesaju de la mn sa te opresti
+[2024-06-27 10:24:37] Sent to client mari: mari: astepti mesaju de la mn sa te opresti
+[2024-06-27 10:24:37] Client Bogdan disconnected.
+[2024-06-27 10:25:20] Server starting...
+[2024-06-27 10:25:22] Server starting...
+[2024-06-27 10:25:35] Server starting...
+[2024-06-27 10:25:37] Server starting...
+[2024-06-27 10:25:38] Server starting...
+[2024-06-27 10:25:40] Server starting...
+[2024-06-27 10:25:40] Server listening on port 54000
+[2024-06-27 10:25:44] 127.0.0.1 connected!
+[2024-06-27 10:25:49] Client connected with username: bogdan
+[2024-06-27 10:26:00] 127.0.0.1 connected!
+[2024-06-27 10:26:01] Client connected with username: sal
+[2024-06-27 10:26:03] Received from client sal: sa
+[2024-06-27 10:26:03] Received from client sal: sa
+[2024-06-27 10:26:03] Sent to client bogdan: sal: sa
+[2024-06-27 10:26:03] Sent to client sal: sal: sa
+[2024-06-27 10:26:05] Received from client bogdan: sa
+[2024-06-27 10:26:05] Received from client bogdan: sa
+[2024-06-27 10:26:05] Sent to client bogdan: bogdan: sa
+[2024-06-27 10:26:05] Sent to client sal: bogdan: sa
+[2024-06-27 10:26:13] Received from client sal: ba cmf
+[2024-06-27 10:26:13] Received from client sal: ba cmf
+[2024-06-27 10:26:13] Sent to client bogdan: sal: ba cmf
+[2024-06-27 10:26:13] Sent to client sal: sal: ba cmf
+[2024-06-27 10:26:13] Client bogdan disconnected.
+[2024-06-27 10:27:32] Server starting...
+[2024-06-27 10:27:32] Server listening on port 54000
+[2024-06-27 10:27:53] Server starting...
+[2024-06-27 10:27:53] Server listening on port 54000
+[2024-06-27 10:27:58] 127.0.0.1 connected!
+[2024-06-27 10:28:00] Client connected with username: dede
+[2024-06-27 10:28:04] 127.0.0.1 connected!
+[2024-06-27 10:28:05] Client connected with username: edededed
+[2024-06-27 10:28:09] Client dede disconnected.
+[2024-06-27 10:28:55] Server starting...
+[2024-06-27 10:29:01] Server starting...
+[2024-06-27 10:29:02] Server starting...
+[2024-06-27 10:29:05] Server starting...
+[2024-06-27 10:29:07] Server starting...
+[2024-06-27 10:29:09] Server starting...
+[2024-06-27 10:29:11] Server starting...
+[2024-06-27 10:29:11] Server listening on port 54000
+[2024-06-27 10:29:14] 127.0.0.1 connected!
+[2024-06-27 10:29:18] Client connected with username: bogdan
+[2024-06-27 10:29:26] 127.0.0.1 connected!
+[2024-06-27 10:29:27] Client connected with username: bogdan
+[2024-06-27 10:29:28] Received from client bogdan: salut
+[2024-06-27 10:29:28] Received from client bogdan: salut
+[2024-06-27 10:29:28] Sent to client bogdan: bogdan: salut
+[2024-06-27 10:29:28] Sent to client bogdan: bogdan: salut
+[2024-06-27 10:29:34] Client bogdan disconnected.
+[2024-06-27 13:33:01] Server starting...
+[2024-06-27 13:33:01] Server listening on port 54000
+[2024-06-27 13:33:09] 127.0.0.1 connected!
+[2024-06-27 13:33:13] Client connected with username: Bogdan
+[2024-06-27 13:33:17] Received from client Bogdan: cf ba golane
+[2024-06-27 13:33:17] Received from client Bogdan: cf ba golane
+[2024-06-27 13:33:17] Sent to client Bogdan: Bogdan: cf ba golane
+[2024-06-27 13:33:19] Client Bogdan disconnected.
+[2024-06-27 13:34:06] 127.0.0.1 connected!
+[2024-06-27 13:34:10] Client connected with username: axi
+[2024-06-27 13:34:13] Received from client axi: sa;ut
+[2024-06-27 13:34:13] Received from client axi: sa;ut
+[2024-06-27 13:34:13] Sent to client axi: axi: sa;ut
+[2024-06-27 13:34:15] 127.0.0.1 connected!
+[2024-06-27 13:34:19] Client connected with username: bogdu
+[2024-06-27 13:34:22] Received from client bogdu: cd ba
+[2024-06-27 13:34:22] Received from client bogdu: cd ba
+[2024-06-27 13:34:22] Sent to client axi: bogdu: cd ba
+[2024-06-27 13:34:22] Sent to client bogdu: bogdu: cd ba
+[2024-06-27 13:34:31] Received from client bogdu: ce sa fac ma
+[2024-06-27 13:34:31] Received from client bogdu: ce sa fac ma
+[2024-06-27 13:34:31] Sent to client axi: bogdu: ce sa fac ma
+[2024-06-27 13:34:31] Sent to client bogdu: bogdu: ce sa fac ma
+[2024-06-27 13:34:36] Received from client axi: nimic
+[2024-06-27 13:34:36] Received from client axi: nimic
+[2024-06-27 13:34:36] Sent to client axi: axi: nimic
+[2024-06-27 13:34:36] Sent to client bogdu: axi: nimic
+[2024-06-27 13:34:39] Client axi disconnected.
+[2024-06-27 13:38:37] Server starting...
+[2024-06-27 13:38:37] Server listening on port 54000
+[2024-06-27 13:38:43] 127.0.0.1 connected!
+[2024-06-27 13:38:46] Client connected with username: bogdan
+[2024-06-27 13:38:50] Received from client bogdan: sal
+[2024-06-27 13:38:50] Received from client bogdan: sal
+[2024-06-27 13:38:50] Sent to client bogdan: bogdan: sal
+[2024-06-27 13:38:58] Received from client bogdan: ba  tu cf
+[2024-06-27 13:38:58] Received from client bogdan: ba  tu cf
+[2024-06-27 13:38:58] Sent to client bogdan: bogdan: ba  tu cf
+[2024-06-27 13:39:19] Client bogdan disconnected.
+[2024-06-27 13:40:09] 127.0.0.1 connected!
+[2024-06-27 13:40:12] Client connected with username: bsad
+[2024-06-27 13:40:16] 127.0.0.1 connected!
+[2024-06-27 13:40:23] Received from client bsad:  hahaha
+[2024-06-27 13:40:23] Received from client bsad:  hahaha
+[2024-06-27 13:40:23] Sent to client bsad: bsad:  hahaha
+[2024-06-27 13:40:23] Sent to client : bsad:  hahaha
+[2024-06-27 13:40:27] Client connected with username: das
+[2024-06-27 13:40:29] Received from client das: dadad
+[2024-06-27 13:40:29] Received from client das: dadad
+[2024-06-27 13:40:29] Sent to client bsad: das: dadad
+[2024-06-27 13:40:29] Sent to client das: das: dadad
+[2024-06-27 13:40:30] Received from client das: ada
+[2024-06-27 13:40:30] Received from client das: ada
+[2024-06-27 13:40:30] Sent to client bsad: das: ada
+[2024-06-27 13:40:30] Sent to client das: das: ada
+[2024-06-27 13:40:31] Received from client das: ad
+[2024-06-27 13:40:31] Received from client das: ad
+[2024-06-27 13:40:31] Sent to client bsad: das: ad
+[2024-06-27 13:40:31] Sent to client das: das: ad
+[2024-06-27 13:40:38] Received from client bsad: baa ce fcaci
+[2024-06-27 13:40:38] Received from client bsad: baa ce fcaci
+[2024-06-27 13:40:38] Sent to client bsad: bsad: baa ce fcaci
+[2024-06-27 13:40:38] Sent to client das: bsad: baa ce fcaci
+[2024-06-27 13:40:49] Client das disconnected.
+[2024-06-27 13:40:57] Client bsad disconnected.
+[2024-06-27 13:41:34] 127.0.0.1 connected!
+[2024-06-27 13:41:36] Client connected with username: sadas
+[2024-06-27 13:41:40] 127.0.0.1 connected!
+[2024-06-27 13:41:44] Client connected with username: dadadadadadada
+[2024-06-27 13:41:48] Client dadadadadadada disconnected.
+[2024-06-27 13:41:51] 127.0.0.1 connected!
+[2024-06-27 13:41:54] Client connected with username: mama
+[2024-06-27 13:41:58] Client sadas disconnected.
+[2024-06-27 13:42:12] Server starting...
+[2024-06-27 13:42:16] Server starting...
+[2024-06-27 13:42:18] Server starting...
+[2024-06-27 13:42:20] Server starting...
+[2024-06-27 13:43:05] Server starting...
+[2024-06-27 13:43:05] Server listening on port 54000
+[2024-06-27 13:43:08] 127.0.0.1 connected!
+[2024-06-27 13:43:17] Client connected with username: ba ce 
+[2024-06-27 13:43:31] 127.0.0.1 connected!
+[2024-06-27 13:43:34] Client connected with username: ma
+[2024-06-27 13:43:35] Received from client ma: da
+[2024-06-27 13:43:35] Received from client ma: da
+[2024-06-27 13:43:35] Sent to client ba ce : ma: da
+[2024-06-27 13:43:35] Sent to client ma: ma: da
+[2024-06-27 13:43:37] Received from client ma: ce 
+[2024-06-27 13:43:37] Received from client ma: ce 
+[2024-06-27 13:43:37] Sent to client ba ce : ma: ce 
+[2024-06-27 13:43:37] Sent to client ma: ma: ce 
+[2024-06-27 13:43:39] Received from client ma: dadaad
+[2024-06-27 13:43:39] Received from client ma: dadaad
+[2024-06-27 13:43:39] Sent to client ba ce : ma: dadaad
+[2024-06-27 13:43:39] Sent to client ma: ma: dadaad
+[2024-06-27 13:43:40] Received from client ma: adadaa
+[2024-06-27 13:43:40] Received from client ma: adadaa
+[2024-06-27 13:43:40] Sent to client ba ce : ma: adadaa
+[2024-06-27 13:43:40] Sent to client ma: ma: adadaa
+[2024-06-27 13:43:43] Received from client ba ce : okkk
+[2024-06-27 13:43:43] Received from client ba ce : okkk
+[2024-06-27 13:43:43] Sent to client ba ce : ba ce : okkk
+[2024-06-27 13:43:43] Sent to client ma: ba ce : okkk
+[2024-06-27 13:43:46] Received from client ba ce : bd
+[2024-06-27 13:43:46] Received from client ba ce : bd
+[2024-06-27 13:43:46] Sent to client ba ce : ba ce : bd
+[2024-06-27 13:43:46] Sent to client ma: ba ce : bd
+[2024-06-27 13:43:49] Client ma disconnected.
+[2024-06-27 13:43:54] Client ba ce  disconnected.
+[2024-06-27 13:44:00] 127.0.0.1 connected!
+[2024-06-27 13:44:07] 127.0.0.1 connected!
+[2024-06-27 13:44:09] Client connected with username: d
+[2024-06-27 13:44:11] Received from client d: d
+[2024-06-27 13:44:11] Received from client d: d
+[2024-06-27 13:44:11] Sent to client : d: d
+[2024-06-27 13:44:11] Sent to client d: d: d
+[2024-06-27 13:44:12] Received from client d: d
+[2024-06-27 13:44:12] Received from client d: d
+[2024-06-27 13:44:12] Sent to client : d: d
+[2024-06-27 13:44:12] Sent to client d: d: d
+[2024-06-27 13:44:13] Received from client d: dd
+[2024-06-27 13:44:13] Received from client d: dd
+[2024-06-27 13:44:13] Sent to client : d: dd
+[2024-06-27 13:44:13] Sent to client d: d: dd
+[2024-06-27 13:44:15] Client d disconnected.
+[2024-06-27 13:44:19] Client connected with username: /exit
+[2024-06-27 13:44:27] Received from client /exit: cf
+[2024-06-27 13:44:27] Received from client /exit: cf
+[2024-06-27 13:44:27] Sent to client /exit: /exit: cf
+[2024-06-27 13:44:29] Client /exit disconnected.
+[2024-06-27 19:24:03] Server starting...
+[2024-06-27 19:24:03] Server listening on port 54000
+[2024-06-27 19:24:14] 127.0.0.1 connected!
+[2024-06-27 19:25:13] 127.0.0.1 connected!
+[2024-06-27 19:25:19] Client connected with username: Bog
+[2024-06-27 19:25:23] Client connected with username: Dog
+[2024-06-27 19:25:26] Received from client Dog: cf
+[2024-06-27 19:25:26] Received from client Dog: cf
+[2024-06-27 19:25:26] Sent to client Dog: Dog: cf
+[2024-06-27 19:25:26] Sent to client Bog: Dog: cf
+[2024-06-27 19:25:51] Received from client Dog: message_Bog salut
+[2024-06-27 19:25:51] Received from client Dog: message_Bog salut
+[2024-06-27 19:25:51] Sent to client Dog: Dog: message_Bog salut
+[2024-06-27 19:25:51] Sent to client Bog: Dog: message_Bog salut
+[2024-06-27 19:26:05] Received from client Dog: /message_Bog salut
+[2024-06-27 19:26:05] Client Dog requested to exit.
+[2024-06-27 19:26:05] Sent to client Bog: Private message from Dog: salut
+[2024-06-27 19:26:05] Private message from Dog to Bog: salut
+[2024-06-27 19:49:00] Server starting...
+[2024-06-27 19:49:00] Server listening on port 54000
+[2024-06-27 19:49:07] 127.0.0.1 connected!
+[2024-06-27 19:49:10] Client connected with username: dog
+[2024-06-27 19:49:21] 127.0.0.1 connected!
+[2024-06-27 19:49:25] Client connected with username: bog\
+[2024-06-27 19:49:26] Received from client bog\: sal
+[2024-06-27 19:49:26] Received from client bog\: sal
+[2024-06-27 19:49:26] Sent to client dog: bog\: sal
+[2024-06-27 19:49:26] Sent to client bog\: bog\: sal
+[2024-06-27 19:49:31] Received from client dog: sa
+[2024-06-27 19:49:31] Received from client dog: sa
+[2024-06-27 19:49:31] Sent to client dog: dog: sa
+[2024-06-27 19:49:31] Sent to client bog\: dog: sa
+[2024-06-27 19:49:42] Received from client bog\: /message_bog buna
+[2024-06-27 19:49:42] Client bog\ requested to exit.
+[2024-06-27 19:49:42] Private message from bog\ to bog: buna
+[2024-06-27 19:50:13] 127.0.0.1 connected!
+[2024-06-27 19:50:18] Client connected with username: bog
+[2024-06-27 19:50:23] Received from client dog: s
+[2024-06-27 19:50:23] Received from client dog: s
+[2024-06-27 19:50:23] Sent to client dog: dog: s
+[2024-06-27 19:50:23] Sent to client bog: dog: s
+[2024-06-27 19:50:26] Received from client dog: hai ba
+[2024-06-27 19:50:26] Received from client dog: hai ba
+[2024-06-27 19:50:26] Sent to client dog: dog: hai ba
+[2024-06-27 19:50:26] Sent to client bog: dog: hai ba
+[2024-06-27 19:50:39] Received from client dog: /message_bog da ma da
+[2024-06-27 19:50:39] Client dog requested to exit.
+[2024-06-27 19:50:39] Private message from dog to bog: da ma da
+[2024-06-27 19:50:39] Sent to client bog: Private message from dog: da ma da
+[2024-06-27 19:54:41] Server starting...
+[2024-06-27 19:54:41] Server listening on port 54000
+[2024-06-27 19:54:50] 127.0.0.1 connected!
+[2024-06-27 19:54:55] Client connected with username: dog
+[2024-06-27 19:55:00] 127.0.0.1 connected!
+[2024-06-27 19:55:03] Client connected with username: bog
+[2024-06-27 19:55:18] Received from client dog: /message_bog cf
+[2024-06-27 19:55:18] Client dog requested to exit.
+[2024-06-27 19:55:18] Private message from dog to bog: cf
+[2024-06-27 19:55:18] Sent to client bog: Private message from dog: cf
+[2024-06-27 19:55:51] Server starting...
+[2024-06-27 20:06:38] Server starting...
+[2024-06-27 20:06:38] Server listening on port 54000
+[2024-06-27 20:06:50] Server starting...
+[2024-06-27 20:06:50] Server listening on port 54000
+[2024-06-27 20:06:56] 127.0.0.1 connected!
+[2024-06-27 20:06:59] Client connected with username: dog
+[2024-06-27 20:07:39] 127.0.0.1 connected!
+[2024-06-27 20:07:39] Client connected with username: bogsal
+[2024-06-27 20:08:06] Received from client dog: /message_bog daaa
+[2024-06-27 20:08:06] Client dog requested to exit.
+[2024-06-27 20:08:06] Private message from dog to bog: daaa
+[2024-06-27 20:25:53] Server starting...
+[2024-06-27 20:25:53] Server listening on port 54000
+[2024-06-27 20:25:56] 127.0.0.1 connected!
+[2024-06-27 20:26:07] 127.0.0.1 connected!
+[2024-06-27 20:26:09] Client connected with username: dog
+[2024-06-27 20:26:11] Client connected with username: bog
+[2024-06-27 20:26:29] Received from client bog: /message_dog sal
+[2024-06-27 20:26:29] Client bog requested to exit.
+[2024-06-27 20:26:29] Private message from bog to dog: sal
+[2024-06-27 20:26:29] Sent to client dog: Private message from bog: sal
+[2024-06-27 20:27:39] Server starting...
+[2024-06-27 20:27:39] Server listening on port 54000
+[2024-06-27 20:27:53] 127.0.0.1 connected!
+[2024-06-27 20:27:56] 127.0.0.1 connected!
+[2024-06-27 20:28:00] Client connected with username: Smighel
+[2024-06-27 20:28:07] Client connected with username: Bughden
+[2024-06-27 20:28:15] Received from client Bughden: /message_Smighel lolo
+[2024-06-27 20:28:15] Client Bughden requested command.
+[2024-06-27 20:28:15] Private message from Bughden to Smighel: lolo
+[2024-06-27 20:28:15] Sent to client Smighel: Private message from Bughden: lolo
+[2024-06-27 20:28:19] Server starting...
+[2024-06-27 20:28:30] Server starting...
+[2024-06-27 20:28:51] Server starting...
+[2024-06-27 20:29:24] Server starting...
+[2024-06-27 20:29:24] Server listening on port 54000
+[2024-06-27 20:29:27] 127.0.0.1 connected!
+[2024-06-27 20:29:44] 127.0.0.1 connected!
+[2024-06-27 20:29:45] Client connected with username: l
+[2024-06-27 20:29:47] Client connected with username: al
+[2024-06-27 20:29:54] Received from client al: /message_l noroc
+[2024-06-27 20:29:54] Client al requested command.
+[2024-06-27 20:29:54] Private message from al to l: noroc
+[2024-06-27 20:30:00] Sent to client l: Private message from al: noroc
+[2024-06-27 20:30:50] Server starting...
+[2024-06-27 20:31:12] Server starting...
+[2024-06-27 20:31:38] Server starting...
+[2024-06-27 20:31:38] Server listening on port 54000
+[2024-06-27 20:31:41] 127.0.0.1 connected!
+[2024-06-27 20:31:44] 127.0.0.1 connected!
+[2024-06-27 20:31:45] Client connected with username: L
+[2024-06-27 20:31:49] Client connected with username: bogl
+[2024-06-27 20:31:56] Received from client bogl: /message_L sal
+[2024-06-27 20:31:56] Client bogl requested command.
+[2024-06-27 20:31:56] Private message from bogl to L: sal
+[2024-06-27 20:31:56] Sent to client L: Private message from bogl: sal
+[2024-06-27 20:32:12] Received from client L: /message_bogl noroc
+[2024-06-27 20:32:12] Client L requested command.
+[2024-06-27 20:32:12] Private message from L to bogl: noroc
+[2024-06-27 20:32:12] Sent to client bogl: Private message from L: noroc
+[2024-06-27 20:32:17] Client bogl disconnected.
+[2024-06-27 20:32:51] Server starting...
+[2024-06-27 20:33:29] Server starting...
+[2024-06-27 20:33:29] Server listening on port 54000
+[2024-06-27 20:33:32] 127.0.0.1 connected!
+[2024-06-27 20:33:39] Client connected with username: matei
+[2024-06-27 20:33:40] Received from client matei: asdasd
+[2024-06-27 20:33:40] Received from client matei: asdasd
+[2024-06-27 20:33:40] Sent to client matei: matei: asdasd
+[2024-06-27 20:33:42] Received from client matei: asda
+[2024-06-27 20:33:42] Received from client matei: asda
+[2024-06-27 20:33:42] Sent to client matei: matei: asda
+[2024-06-27 20:33:42] Received from client matei: sdas
+[2024-06-27 20:33:42] Received from client matei: sdas
+[2024-06-27 20:33:42] Sent to client matei: matei: sdas
+[2024-06-27 20:33:45] Client matei disconnected.
+[2024-06-27 20:35:08] Server starting...
+[2024-06-27 20:35:08] Server listening on port 54000
+[2024-06-27 20:35:11] 127.0.0.1 connected!
+[2024-06-27 20:35:15] Client connected with username: l
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Sent to client l: l: asd
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Sent to client l: l: asd
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Received from client l: asd
+[2024-06-27 20:35:16] Sent to client l: l: asd
+[2024-06-27 20:35:17] Received from client l: sd
+[2024-06-27 20:35:17] Received from client l: sd
+[2024-06-27 20:35:17] Sent to client l: l: sd
+[2024-06-27 20:35:20] Client l disconnected.
+[2024-06-27 20:35:32] Server starting...
+[2024-06-27 20:35:32] Server listening on port 54000
+[2024-06-27 20:35:38] 127.0.0.1 connected!
+[2024-06-27 20:35:56] Client connected with username: a
+[2024-06-27 20:35:58] Received from client a: asdas
+[2024-06-27 20:35:58] Received from client a: asdas
+[2024-06-27 20:35:58] Sent to client a: a: asdas
+[2024-06-27 20:35:58] Received from client a: da
+[2024-06-27 20:35:58] Received from client a: da
+[2024-06-27 20:35:58] Sent to client a: a: da
+[2024-06-27 20:35:58] Received from client a: sd
+[2024-06-27 20:35:58] Received from client a: sd
+[2024-06-27 20:35:58] Sent to client a: a: sd
+[2024-06-27 20:35:59] Client a disconnected.
+[2024-06-27 20:36:45] Server starting...
+[2024-06-27 20:36:45] Server listening on port 54000
+[2024-06-27 20:36:48] 127.0.0.1 connected!
+[2024-06-27 20:36:49] Client connected with username: a
+[2024-06-27 20:36:50] Received from client a: asd
+[2024-06-27 20:36:50] Received from client a: asd
+[2024-06-27 20:36:50] Sent to client a: a: asd
+[2024-06-27 20:36:50] Received from client a: as
+[2024-06-27 20:36:50] Received from client a: as
+[2024-06-27 20:36:50] Sent to client a: a: as
+[2024-06-27 20:36:51] Received from client a: d
+[2024-06-27 20:36:51] Received from client a: d
+[2024-06-27 20:36:51] Sent to client a: a: d
+[2024-06-27 20:36:52] Client a disconnected.
+[2024-06-27 20:37:11] Server starting...
+[2024-06-27 20:37:11] Server listening on port 54000
+[2024-06-27 20:37:14] 127.0.0.1 connected!
+[2024-06-27 20:37:16] Client connected with username: l
+[2024-06-27 20:37:25] Received from client l: s
+[2024-06-27 20:37:28] Received from client l: s
+[2024-06-27 20:37:29] Sent to client l: l: s
+[2024-06-27 20:38:11] Client l disconnected.
+[2024-06-27 20:38:39] Server starting...
+[2024-06-27 20:38:39] Server listening on port 54000
+[2024-06-27 20:38:43] 127.0.0.1 connected!
+[2024-06-27 20:38:46] Client connected with username: a
+[2024-06-27 20:39:02] Received from client a: /message_j salut
+[2024-06-27 20:39:05] Client a requested command.
+[2024-06-27 20:39:15] Private message from a to j: salut
+[2024-06-27 20:40:22] Server starting...
+[2024-06-27 20:40:22] Server listening on port 54000
+[2024-06-27 20:40:26] 127.0.0.1 connected!
+[2024-06-27 20:40:29] Client connected with username: constantinescu
+[2024-06-27 20:40:37] Received from client constantinescu: a
+[2024-06-27 20:40:38] Received from client constantinescu: a
+[2024-06-27 20:40:38] Sent to client constantinescu: constantinescu: a
+[2024-06-27 20:41:38] Server starting...
+[2024-06-27 20:41:38] Server listening on port 54000
+[2024-06-27 20:41:50] 127.0.0.1 connected!
+[2024-06-27 20:41:51] Client connected with username: asd
+[2024-06-27 20:42:03] Received from client asd: /exit
+[2024-06-27 20:42:04] Client asd requested command.
+[2024-06-27 20:42:11] Client asd requested to exit.
+[2024-06-27 20:44:48] Server starting...
+[2024-06-27 20:44:48] Server listening on port 54000
+[2024-06-27 20:44:51] 127.0.0.1 connected!
+[2024-06-27 20:44:52] Client connected with username: a
+[2024-06-27 20:44:59] Received from client a: /exit
+[2024-06-27 20:45:00] Client a requested command.
+[2024-06-27 20:45:05] Client a requested to exit.
+[2024-06-27 20:45:07] Sent to client a: EXIT
+[2024-06-27 20:46:04] Server starting...
+[2024-06-27 20:46:04] Server listening on port 54000
+[2024-06-27 20:46:08] Server starting...
+[2024-06-27 20:46:08] Server listening on port 54000
+[2024-06-27 20:46:13] 127.0.0.1 connected!
+[2024-06-27 20:46:14] Client connected with username: lala
+[2024-06-27 20:46:16] Received from client lala: /exit
+[2024-06-27 20:46:16] Client lala requested command.
+[2024-06-27 20:46:16] Client lala requested to exit.
+[2024-06-27 20:46:16] Sent to client lala: EXIT
+[2024-06-27 20:46:24] 127.0.0.1 connected!
+[2024-06-27 20:46:27] Client connected with username: mongol
+[2024-06-27 20:46:31] 127.0.0.1 connected!
+[2024-06-27 20:46:32] Client connected with username: andries
+[2024-06-27 20:46:43] Received from client mongol: /message_andires noroc si voie buna
+[2024-06-27 20:46:43] Client mongol requested command.
+[2024-06-27 20:46:43] Private message from mongol to andires: noroc si voie buna
+[2024-06-27 20:46:53] Received from client mongol: /message_andries noroc
+[2024-06-27 20:46:53] Client mongol requested command.
+[2024-06-27 20:46:53] Private message from mongol to andries: noroc
+[2024-06-27 20:46:53] Sent to client andries: Private message from mongol: noroc
+[2024-06-27 20:46:56] Received from client andries: /exit
+[2024-06-27 20:46:56] Client andries requested command.
+[2024-06-27 20:46:56] Client andries requested to exit.
+[2024-06-27 20:46:56] Sent to client andries: EXIT
+[2024-06-27 20:47:02] Received from client mongol: /exit
+[2024-06-27 20:47:02] Client mongol requested command.
+[2024-06-27 20:47:02] Client mongol requested to exit.
+[2024-06-27 20:47:02] Sent to client mongol: EXIT
+[2024-06-27 23:32:41] Server starting...
+[2024-06-27 23:32:41] Server listening on port 54000
+[2024-06-27 23:32:47] 127.0.0.1 connected!
+[2024-06-27 23:32:51] Client connected with username: bod
+[2024-06-27 23:33:00] Received from client bod: cf boss
+[2024-06-27 23:33:00] Received from client bod: cf boss
+[2024-06-27 23:33:00] Sent to client bod: bod: cf boss
+[2024-06-27 23:33:06] Client bod disconnected.
+[2024-06-27 23:33:36] 127.0.0.1 connected!
+[2024-06-27 23:33:39] Client connected with username: bog
+[2024-06-27 23:33:42] Received from client bog: salut
+[2024-06-27 23:33:42] Received from client bog: salut
+[2024-06-27 23:33:42] Sent to client bog: bog: salut
+[2024-06-27 23:33:45] Client bog disconnected.
+[2024-06-27 23:44:25] Server starting...
+[2024-06-27 23:44:30] Server starting...
+[2024-06-27 23:44:31] Server starting...
+[2024-06-27 23:44:33] Server starting...
+[2024-06-27 23:44:39] Server starting...
+[2024-06-27 23:44:40] Server starting...
+[2024-06-27 23:44:42] Server starting...
+[2024-06-27 23:44:43] Server starting...
+[2024-06-27 23:44:57] Server starting...
+[2024-06-27 23:44:58] Server starting...
+[2024-06-27 23:45:00] Server starting...
+[2024-06-27 23:45:02] Server starting...
+[2024-06-27 23:45:20] Server starting...
+[2024-06-27 23:45:21] Server starting...
+[2024-06-27 23:45:23] Server starting...
+[2024-06-27 23:45:25] Server starting...
+[2024-06-27 23:45:27] Server starting...
+[2024-06-27 23:45:28] Server starting...
+[2024-06-27 23:49:41] Server starting...
+[2024-06-27 23:58:16] Server starting...
+[2024-06-27 23:58:16] Server listening on port 54000
+[2024-06-27 23:58:20] 127.0.0.1 connected!
+[2024-06-27 23:58:23] Client connected with username: bogd
+[2024-06-27 23:58:26] Received from client bogd: sal
+[2024-06-27 23:58:26] Received from client bogd: sal
+[2024-06-27 23:58:26] Sent to client bogd: bogd: sal
+[2024-06-27 23:58:28] Received from client bogd: cf
+[2024-06-27 23:58:28] Received from client bogd: cf
+[2024-06-27 23:58:28] Sent to client bogd: bogd: cf
+[2024-06-27 23:58:29] Received from client bogd: bne
+[2024-06-27 23:58:29] Received from client bogd: bne
+[2024-06-27 23:58:29] Sent to client bogd: bogd: bne
+[2024-06-27 23:58:32] Received from client bogd: nu apare
+[2024-06-27 23:58:32] Received from client bogd: nu apare
+[2024-06-27 23:58:32] Sent to client bogd: bogd: nu apare
+[2024-06-27 23:58:35] Received from client bogd: pis pe el
+[2024-06-27 23:58:35] Received from client bogd: pis pe el
+[2024-06-27 23:58:35] Sent to client bogd: bogd: pis pe el
+[2024-06-28 00:00:04] Client bogd disconnected.
+[2024-06-28 00:00:06] 127.0.0.1 connected!
+[2024-06-28 00:02:20] Client connected with username: bog
+[2024-06-28 00:02:24] Received from client bog: sal
+[2024-06-28 00:02:24] Received from client bog: sal
+[2024-06-28 00:02:24] Sent to client bog: bog: sal
+[2024-06-28 00:02:31] Received from client bog: nu e bine
+[2024-06-28 00:02:31] Received from client bog: nu e bine
+[2024-06-28 00:02:31] Sent to client bog: bog: nu e bine
+[2024-06-28 00:11:54] Client bog disconnected.
+[2024-06-28 00:11:56] 127.0.0.1 connected!
+[2024-06-28 00:11:59] Client connected with username: bo
+[2024-06-28 00:12:01] Received from client bo: sal
+[2024-06-28 00:12:01] Received from client bo: sal
+[2024-06-28 00:12:01] Sent to client bo: bo: sal
+[2024-06-28 00:12:04] Received from client bo: ba
+[2024-06-28 00:12:04] Received from client bo: ba
+[2024-06-28 00:12:04] Sent to client bo: bo: ba
+[2024-06-28 00:12:07] Received from client bo: ce plm
+[2024-06-28 00:12:07] Received from client bo: ce plm
+[2024-06-28 00:12:07] Sent to client bo: bo: ce plm
+[2024-06-28 00:12:13] Client bo disconnected.
+[2024-06-28 00:29:54] Server starting...
+[2024-06-28 00:29:54] Server listening on port 54000
+[2024-06-28 00:30:01] 127.0.0.1 connected!
+[2024-06-28 00:30:04] Client connected with username: bog
+[2024-06-28 00:30:10] Received from client bog: /show_users
+[2024-06-28 00:30:10] Client bog requested command.
+[2024-06-28 00:30:10] Unknown command from client bog: /show_users
+[2024-06-28 00:38:58] Server starting...
+[2024-06-28 00:43:05] Server starting...
+[2024-06-28 00:43:05] Server listening on port 54000
+[2024-06-28 00:43:09] 127.0.0.1 connected!
+[2024-06-28 00:43:12] Client connected with username: bo
+[2024-06-28 00:43:18] Received from client bo: /show_userts
+[2024-06-28 00:43:18] Client bo requested command.
+[2024-06-28 00:43:18] Unknown command from client bo: /show_userts
+[2024-06-28 00:43:27] Received from client bo: /show_users
+[2024-06-28 00:43:27] Client bo requested command.
+[2024-06-28 00:43:27] Sent to client bo: Connected users:
+bo
+
+[2024-06-28 00:44:38] 127.0.0.1 connected!
+[2024-06-28 00:44:41] Client connected with username: bossu
+[2024-06-28 00:44:50] 127.0.0.1 connected!
+[2024-06-28 00:44:52] Client connected with username: doru
+[2024-06-28 00:44:54] Received from client doru: sall
+[2024-06-28 00:44:54] Received from client doru: sall
+[2024-06-28 00:44:54] Sent to client bo: doru: sall
+[2024-06-28 00:44:54] Sent to client bossu: doru: sall
+[2024-06-28 00:44:54] Sent to client doru: doru: sall
+[2024-06-28 00:44:56] Received from client doru: cff
+[2024-06-28 00:44:56] Received from client doru: cff
+[2024-06-28 00:44:56] Sent to client bo: doru: cff
+[2024-06-28 00:44:56] Sent to client bossu: doru: cff
+[2024-06-28 00:44:56] Sent to client doru: doru: cff
+[2024-06-28 00:45:00] Received from client bossu: bine ba doru
+[2024-06-28 00:45:00] Received from client bossu: bine ba doru
+[2024-06-28 00:45:00] Sent to client bo: bossu: bine ba doru
+[2024-06-28 00:45:00] Sent to client bossu: bossu: bine ba doru
+[2024-06-28 00:45:00] Sent to client doru: bossu: bine ba doru
+[2024-06-28 00:45:11] Received from client bossu: /message_doru cmf ba
+[2024-06-28 00:45:11] Client bossu requested command.
+[2024-06-28 00:45:11] Private message from bossu to doru: cmf ba
+[2024-06-28 00:45:11] Sent to client doru: Private message from bossu: cmf ba
+[2024-06-28 00:45:27] Received from client doru: /message_bossu 
+[2024-06-28 00:45:27] Client doru requested command.
+[2024-06-28 00:45:27] Private message from doru to bossu: 
+[2024-06-28 00:45:27] Sent to client bossu: Private message from doru: 
+[2024-06-28 00:45:41] Received from client doru: /message_bossu da bine
+[2024-06-28 00:45:41] Client doru requested command.
+[2024-06-28 00:45:41] Private message from doru to bossu: da bine
+[2024-06-28 00:45:41] Sent to client bossu: Private message from doru: da bine
+[2024-06-28 00:46:08] Received from client bossu: /show_users
+[2024-06-28 00:46:08] Client bossu requested command.
+[2024-06-28 00:46:08] Sent to client bossu: Connected users:
+bo
+bossu
+doru
+
+[2024-06-28 00:46:13] Received from client bossu: haha
+[2024-06-28 00:46:13] Received from client bossu: haha
+[2024-06-28 00:46:13] Sent to client bo: bossu: haha
+[2024-06-28 00:46:13] Sent to client bossu: bossu: haha
+[2024-06-28 00:46:13] Sent to client doru: bossu: haha
+[2024-06-28 00:46:15] Received from client bossu: /exit
+[2024-06-28 00:46:15] Client bossu requested command.
+[2024-06-28 00:46:15] Client bossu requested to exit.
+[2024-06-28 00:46:15] Sent to client bossu: EXIT
+[2024-06-28 00:47:06] Server starting...
+[2024-06-28 00:47:09] Server starting...
+[2024-06-28 01:18:29] Server starting...
+[2024-06-28 01:18:29] Server listening on port 54000
+[2024-06-28 01:18:32] 127.0.0.1 connected!
+[2024-06-28 01:18:33] Client connected with username: s
+[2024-06-28 01:18:35] Received from client s: /exit
+[2024-06-28 01:18:35] Client s requested command.
+[2024-06-28 01:18:35] Client s requested to exit.
+[2024-06-28 01:18:35] Sent to client s: EXIT
+[2024-06-28 01:18:44] 127.0.0.1 connected!
+[2024-06-28 01:18:45] Client connected with username: s
+[2024-06-28 01:18:47] Received from client s: /exit
+[2024-06-28 01:18:47] Client s requested command.
+[2024-06-28 01:18:47] Client s requested to exit.
+[2024-06-28 01:18:47] Sent to client s: EXIT
+[2024-06-28 01:18:54] 127.0.0.1 connected!
+[2024-06-28 01:18:55] Client connected with username: s
+[2024-06-28 01:19:00] 127.0.0.1 connected!
+[2024-06-28 01:19:02] Client connected with username: s
+[2024-06-28 01:19:05] Received from client s: /exit
+[2024-06-28 01:19:05] Client s requested command.
+[2024-06-28 01:19:05] Client s requested to exit.
+[2024-06-28 01:19:05] Sent to client s: EXIT
+[2024-06-28 01:19:07] 127.0.0.1 connected!
+[2024-06-28 01:19:09] Client connected with username: ssaas
+[2024-06-28 01:19:12] 127.0.0.1 connected!
+[2024-06-28 01:19:15] Client connected with username: maa
+[2024-06-28 01:19:16] Received from client maa: /exit
+[2024-06-28 01:19:16] Client maa requested command.
+[2024-06-28 01:19:16] Client maa requested to exit.
+[2024-06-28 01:19:16] Sent to client maa: EXIT
+[2024-06-28 01:19:23] Received from client s: /exit
+[2024-06-28 01:19:23] Client s requested command.
+[2024-06-28 01:19:23] Client s requested to exit.
+[2024-06-28 01:19:23] Sent to client s: EXIT

@@ -17,6 +17,7 @@ public:
     void sendMessage(const std::string& message);
     std::string getUsername();
 
+
 private:
     void handleClient();
     void processCommand(const std::string& command);
